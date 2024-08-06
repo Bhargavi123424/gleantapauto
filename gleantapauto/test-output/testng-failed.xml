@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Gleantap(failed)">
+    <classes>
+      <class name="com.crm.gleantapauto.tests.appointment">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="addappointment"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.gleantapauto.tests.appointment -->
+      <class name="com.crm.gleantapauto.tests.Task">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="addTask"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.gleantapauto.tests.Task -->
+    </classes>
+  </test> <!-- Gleantap(failed) -->
+</suite> <!-- Failed suite [CRM] -->

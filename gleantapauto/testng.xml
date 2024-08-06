@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRM">
+	<listeners>
+		<listener class-name="com.crm.gleantapauto.Extentreports.ExtentReporterNG" />
+	</listeners>
+  <test name="Gleantap">
+    <classes>
+      <class name="com.crm.gleantapauto.tests.login"/>
+      <!--<class name="com.crm.gleantapauto.tests.appointment"/>
+      <class name="com.crm.gleantapauto.tests.Task"/>
+      <class name="com.crm.gleantapauto.tests.Forms">
+      <methods>
+               <include name="leadCaptureForm" />
+            </methods>
+            </class>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
