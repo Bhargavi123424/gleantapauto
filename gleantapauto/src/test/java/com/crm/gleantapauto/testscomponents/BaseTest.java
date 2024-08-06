@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 
 import com.crm.gleantapauto.pageobjects.WorkroomObjects;
 import com.crm.gleantapauto.pageobjects.loginObjects;
-import com.crm.gleantapauto.tests.login;
+import com.crm.gleantapauto.tests.loginTest;
 
 
 
@@ -15,7 +15,7 @@ public class BaseTest {
 	
 	public WebDriver driver;
 	public loginObjects logOb;
-	public login logverify;
+	public loginTest logverify;
 	
 	
 	public WebDriver initializeDriver()

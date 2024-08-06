@@ -6,7 +6,7 @@
 	</listeners>
   <test name="Gleantap">
     <classes>
-      <class name="com.crm.gleantapauto.tests.login"/>
+      <class name="com.crm.gleantapauto.tests.loginTest"/>
       <!--<class name="com.crm.gleantapauto.tests.appointment"/>
       <class name="com.crm.gleantapauto.tests.Task"/>
       <class name="com.crm.gleantapauto.tests.Forms">

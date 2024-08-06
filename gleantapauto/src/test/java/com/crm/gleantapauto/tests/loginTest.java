@@ -22,7 +22,7 @@ import com.crm.gleantapauto.testscomponents.BaseTest;
 
 
 
-public class login  extends BaseTest{
+public class loginTest  extends BaseTest{
 	
 
 	@Test
